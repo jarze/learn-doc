@@ -1,3 +1,0 @@
-# Guid
-
-> An awesome project.
