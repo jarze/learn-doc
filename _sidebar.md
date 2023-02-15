@@ -2,5 +2,6 @@
 - 🤎 JS
   - [1](/js/1.md)
   - [Proxy](/js/proxy.md)
+  - [Html2PDF](/js/html2pdf.md)
 - 🔧 Tool
   - [git](/tool/git.md)
