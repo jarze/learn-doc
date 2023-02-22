@@ -5,3 +5,4 @@
   - [Html2PDF](/js/html2pdf.md)
 - 🔧 Tool
   - [git](/tool/git.md)
+  - [make](/tool/make.md)
