@@ -43,3 +43,14 @@ git rebase -i HEAD~3
 
 ```
 
+
+```bash
+
+git show
+
+# 修改提交信息
+git commit --amend -m 'xxxxxxx'
+git commit --amend --only -m 'xxxxxxx'
+
+git commit --amend --author "name <email>"
+```
