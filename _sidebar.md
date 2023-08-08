@@ -1,8 +1,10 @@
 - [Home](/)
 - 🤎 JS
+  - [snippets](/js/snippets.md)
   - [Proxy](/js/proxy.md)
   - [Html2PDF](/js/html2pdf.md)
   - [docxtemplater](/js/docxtemplater.md)
+  - [react-native-echarts](/js/react-native-echarts.md)
 - 🔧 Tool
   - [git](/tool/git.md)
   - [make](/tool/make.md)
