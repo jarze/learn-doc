@@ -71,3 +71,23 @@ const getCookie = () =>
 		.map(item => item.split('='))
 		.reduce((acc, [k, v]) => (acc[k.trim().replace('"', '')] = v) && acc, {});
 ```
+
+## 如何切换全屏模式
+
+```js
+const fullscreen = (mode = true, el = 'body') =>
+	mode
+		? document.querySelector(el).requestFullscreen()
+		: document.exitFullscreen();
+
+fullscreen(); // 将body以全屏模式打开
+fullscreen(false); // 退出全屏模式
+```
+
+## 如何获取选定的文本
+
+```js
+const getSelectedText = () => window.getSelection().toString();
+
+getSelectedText(); // 'Lorem ipsum'
+```
